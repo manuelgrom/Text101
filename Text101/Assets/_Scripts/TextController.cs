@@ -17,7 +17,8 @@ public class TextController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            text.text = "space presse";
+            text.text = "Your in a cell!\n\n" +
+                        "Press S for Sheet, L for Lock, M for Mirror";
         }
     }
 }
